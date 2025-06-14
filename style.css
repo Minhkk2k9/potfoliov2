@@ -19,7 +19,6 @@ body {
   position: relative;
 }
 
-/* Advanced Background with Multiple Layers */
 body::before {
   content: '';
   position: fixed;
@@ -85,7 +84,6 @@ body::after {
   padding: 20px 0;
 }
 
-/* Advanced Navbar with Glass Effect */
 .navbar {
   position: fixed;
   top: 0;
@@ -213,7 +211,6 @@ body::after {
   transform-origin: center;
 }
 
-/* Hero Section with 3D Effects */
 header {
   background: 
     radial-gradient(circle at 30% 20%, rgba(255, 107, 107, 0.3) 0%, transparent 50%),
@@ -469,7 +466,6 @@ header h1 {
   border-radius: 2px;
 }
 
-/* Advanced Sections with 3D Transform */
 section {
   background: 
     linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03)),
@@ -556,7 +552,6 @@ h2::after {
   position: relative;
 }
 
-/* Enhanced About Section */
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -691,7 +686,6 @@ h2::after {
   background: radial-gradient(circle at 70% 70%, rgba(78, 205, 196, 0.05), transparent);
 }
 
-/* Enhanced Skills Section */
 .skills-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -796,7 +790,6 @@ h2::after {
   100% { transform: translateX(200%); }
 }
 
-/* Enhanced Projects Section */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
@@ -939,7 +932,6 @@ h2::after {
   font-size: 1.15rem;
 }
 
-/* Enhanced Contact Section */
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1088,7 +1080,6 @@ h2::after {
   transform: translateY(-2px);
 }
 
-/* Enhanced Footer */
 footer {
   text-align: center;
   padding: 80px;
@@ -1114,7 +1105,6 @@ footer::before {
   background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1);
 }
 
-/* Advanced Animations */
 @keyframes complexRotate {
   from { transform: rotate(0deg) scale(1); }
   50% { transform: rotate(180deg) scale(1.1); }
@@ -1161,7 +1151,6 @@ footer::before {
   }
 }
 
-/* Enhanced Responsive Design */
 @media (max-width: 1024px) {
   .about-grid,
   .skills-grid,
@@ -1248,7 +1237,6 @@ footer::before {
   }
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 12px;
 }
