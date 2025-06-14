@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">Portfolio</div>
+      <ul class="nav-menu">
+        <li><a href="#home">Trang chủ</a></li>
+        <li><a href="#about">Giới thiệu</a></li>
+        <li><a href="#skills">Kỹ năng</a></li>
+        <li><a href="#projects">Dự án</a></li>
+        <li><a href="#contact">Liên hệ</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home">
+    <div class="container">
+      <div class="hero-content">
+        <div class="profile-image">
+          <div class="image-placeholder">
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+        <h1>Nguyễn Văn A</h1>
+        <p class="typing-text">Web Developer | Designer | Freelancer</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Liên hệ ngay</a>
+          <a href="#projects" class="btn btn-secondary">Xem dự án</a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-content">
+        <h2><span class="section-number">01.</span>Giới thiệu</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Tôi là lập trình viên yêu thích xây dựng website đẹp, hiệu quả và dễ dùng. 
+              Tôi có kinh nghiệm về HTML, CSS, JavaScript, và một chút về backend.
+            </p>
+            <p>
+              Với đam mê sáng tạo và công nghệ, tôi luôn tìm kiếm những thách thức mới 
+              để phát triển kỹ năng và tạo ra những sản phẩm có giá trị.
+            </p>
+            <div class="stats">
+              <div class="stat-item">
+                <h3>2+</h3>
+                <p>Năm kinh nghiệm</p>
+              </div>
+              <div class="stat-item">
+                <h3>10+</h3>
+                <p>Dự án hoàn thành</p>
+              </div>
+              <div class="stat-item">
+                <h3>5+</h3>
+                <p>Khách hàng hài lòng</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-visual">
+            <div class="code-snippet">
+              <div class="code-header">
+                <div class="dots">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <span>developer.js</span>
+              </div>
+              <div class="code-content">
+                <code>
+const developer = {<br>
+&nbsp;&nbsp;name: "Nguyễn Văn A",<br>
+&nbsp;&nbsp;skills: ["HTML", "CSS", "JS"],<br>
+&nbsp;&nbsp;passion: "Web Development",<br>
+&nbsp;&nbsp;motto: "Code with ❤️"<br>
+};
+                </code>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-content">
+        <h2><span class="section-number">02.</span>Kỹ năng</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>HTML5 & CSS3</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>React/Vue</span>
+                <span class="skill-percentage">70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Backend & Tools</h3>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Python</span>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>PHP</span>
+                <span class="skill-percentage">65%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="65"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Git & GitHub</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-content">
+        <h2><span class="section-number">03.</span>Dự án nổi bật</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="#" class="project-link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+              </div>
+              <h3>Website Portfolio</h3>
+              <p>Website cá nhân giới thiệu kỹ năng, dự án và thông tin liên hệ với thiết kế hiện đại và responsive.</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="#" class="project-link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-tech">
+                <span>JavaScript</span>
+                <span>API</span>
+                <span>QR</span>
+              </div>
+              <h3>QR Payment Generator</h3>
+              <p>Tool tạo mã QR chuyển khoản ngân hàng online với giao diện thân thiện và tích hợp nhiều ngân hàng.</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="#" class="project-link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+              <h3>E-commerce Platform</h3>
+              <p>Nền tảng thương mại điện tử hoàn chỉnh với quản lý sản phẩm, thanh toán và theo dõi đơn hàng.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-content">
+        <h2><span class="section-number">04.</span>Liên hệ</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Hãy kết nối với tôi!</h3>
+            <p>Tôi luôn sẵn sàng thảo luận về các dự án mới, cơ hội hợp tác hoặc đơn giản là trò chuyện về công nghệ.</p>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>nguyenvana@example.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Địa chỉ</h4>
+                <p>Hà Nội, Việt Nam</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/nguyenvana" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form>
+              <div class="form-group">
+                <input type="text" placeholder="Tên của bạn" required>
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Email của bạn" required>
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Chủ đề">
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Tin nhắn của bạn" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Gửi tin nhắn
+                <span class="loading-spinner"></span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Nguyễn Văn A. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
